@@ -14,11 +14,12 @@ public class CNCreativeTab {
             DeferredRegister.create(Registries.CREATIVE_MODE_TAB, CompetitiveNetherite.MODID);
 
     public static final RegistryObject<CreativeModeTab> COMPETITIVE_NETHERITE_TAB = CREATIVE_MODE_TABS.register("competitive_netherite_tab",
-            ()-> CreativeModeTab.builder().icon(()-> new ItemStack(CNItemList.INFERNAL_PYRE.get()))
+            ()-> CreativeModeTab.builder().icon(()-> new ItemStack(CNItemList.ZEPHYR_BOTTLED.get()))
                     .title(Component.translatable("creativetab.competitivenetherite_tab"))
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(CNItemList.INFERNAL_PYRE.get());
                         output.accept(CNItemList.STRANGE_HEART.get());
+                        output.accept(CNItemList.ZEPHYR_BOTTLED.get());
                     })
                     .build());
 

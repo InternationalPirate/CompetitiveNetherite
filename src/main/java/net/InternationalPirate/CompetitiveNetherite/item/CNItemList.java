@@ -15,6 +15,8 @@ public class CNItemList {
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> STRANGE_HEART = ITEMS.register("strange_heart",
             () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> ZEPHYR_BOTTLED = ITEMS.register("zephyr_bottled",
+            () -> new Item(new Item.Properties()));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

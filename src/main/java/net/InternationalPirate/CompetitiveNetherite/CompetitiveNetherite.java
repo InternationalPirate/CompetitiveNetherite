@@ -57,6 +57,7 @@ public class CompetitiveNetherite
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(CNItemList.INFERNAL_PYRE);
             event.accept(CNItemList.STRANGE_HEART);
+            event.accept(CNItemList.ZEPHYR_BOTTLED);
         }
     }
     // You can use SubscribeEvent and let the Event Bus discover methods to call
