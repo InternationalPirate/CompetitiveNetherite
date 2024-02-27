@@ -1,6 +1,7 @@
 package net.InternationalPirate.CompetitiveNetherite.item;
 
 import net.InternationalPirate.CompetitiveNetherite.CompetitiveNetherite;
+import net.InternationalPirate.CompetitiveNetherite.block.CNBlockList;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -14,12 +15,18 @@ public class CNCreativeTab {
             DeferredRegister.create(Registries.CREATIVE_MODE_TAB, CompetitiveNetherite.MODID);
 
     public static final RegistryObject<CreativeModeTab> COMPETITIVE_NETHERITE_TAB = CREATIVE_MODE_TABS.register("competitive_netherite_tab",
-            ()-> CreativeModeTab.builder().icon(()-> new ItemStack(CNItemList.ZEPHYR_BOTTLED.get()))
+            ()-> CreativeModeTab.builder().icon(()-> new ItemStack(CNItemList.UPGRADE_TEMPLATE_HARDENED.get()))
                     .title(Component.translatable("creativetab.competitivenetherite_tab"))
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(CNItemList.INFERNAL_PYRE.get());
                         output.accept(CNItemList.STRANGE_HEART.get());
                         output.accept(CNItemList.ZEPHYR_BOTTLED.get());
+                        output.accept(CNItemList.UPGRADE_TEMPLATE_INFLAMED.get());
+                        output.accept(CNItemList.UPGRADE_TEMPLATE_STRANGE.get());
+                        output.accept(CNItemList.UPGRADE_TEMPLATE_CHARMED.get());
+                        output.accept(CNItemList.UPGRADE_TEMPLATE_HARDENED.get());
+                        output.accept(CNBlockList.NETHER_FISSURE.get());
+                        output.accept(CNBlockList.WIND_TRAP.get());
                     })
                     .build());
 

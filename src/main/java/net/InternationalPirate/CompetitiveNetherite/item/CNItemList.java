@@ -18,6 +18,16 @@ public class CNItemList {
     public static final RegistryObject<Item> ZEPHYR_BOTTLED = ITEMS.register("zephyr_bottled",
             () -> new Item(new Item.Properties()));
 
+    public static final RegistryObject<Item> UPGRADE_TEMPLATE_INFLAMED = ITEMS.register("upgrade_template_inflamed",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> UPGRADE_TEMPLATE_STRANGE = ITEMS.register("upgrade_template_strange",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> UPGRADE_TEMPLATE_CHARMED = ITEMS.register("upgrade_template_charmed",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> UPGRADE_TEMPLATE_HARDENED = ITEMS.register("upgrade_template_hardened",
+            () -> new Item(new Item.Properties()));
+
+
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }

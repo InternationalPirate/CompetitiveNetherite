@@ -2,6 +2,13 @@
   "item.competitivenetherite.infernal_pyre": "Infernal Pyre",
   "item.competitivenetherite.strange_heart": "Strange Heart",
   "item.competitivenetherite.zephyr_bottled": "Zephyr in a Bottle",
+  "item.competitivenetherite.upgrade_template_inflamed": "Inflamed Upgrade Template",
+  "item.competitivenetherite.upgrade_template_strange": "Strange Upgrade Template",
+  "item.competitivenetherite.upgrade_template_charmed": "Charmed Upgrade Template",
+  "item.competitivenetherite.upgrade_template_hardened": "Hardened Upgrade Template",
+
+  "block.competitivenetherite.nether_fissure": "Netherrack Fissure",
+  "block.competitivenetherite.wind_trap": "Wind Trap",
 
   "creativetab.competitivenetherite_tab": "Competitive Netherite"
 }

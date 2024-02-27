@@ -1,6 +1,7 @@
 package net.InternationalPirate.CompetitiveNetherite;
 
 import com.mojang.logging.LogUtils;
+import net.InternationalPirate.CompetitiveNetherite.block.CNBlockList;
 import net.InternationalPirate.CompetitiveNetherite.item.CNCreativeTab;
 import net.InternationalPirate.CompetitiveNetherite.item.CNItemList;
 import net.minecraft.client.Minecraft;
@@ -44,6 +45,7 @@ public class CompetitiveNetherite
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
         CNCreativeTab.register(modEventBus);
         CNItemList.register(modEventBus);
+        CNBlockList.register(modEventBus);
         modEventBus.addListener(this::commonSetup);
         MinecraftForge.EVENT_BUS.register(this);
         modEventBus.addListener(this::addCreative);
@@ -58,6 +60,14 @@ public class CompetitiveNetherite
             event.accept(CNItemList.INFERNAL_PYRE);
             event.accept(CNItemList.STRANGE_HEART);
             event.accept(CNItemList.ZEPHYR_BOTTLED);
+            event.accept(CNItemList.UPGRADE_TEMPLATE_INFLAMED);
+            event.accept(CNItemList.UPGRADE_TEMPLATE_STRANGE);
+            event.accept(CNItemList.UPGRADE_TEMPLATE_CHARMED);
+            event.accept(CNItemList.UPGRADE_TEMPLATE_HARDENED);
+        }
+        if(event.getTabKey() == CreativeModeTabs.REDSTONE_BLOCKS) {
+            event.accept(CNBlockList.NETHER_FISSURE);
+            event.accept(CNBlockList.WIND_TRAP);
         }
     }
     // You can use SubscribeEvent and let the Event Bus discover methods to call
