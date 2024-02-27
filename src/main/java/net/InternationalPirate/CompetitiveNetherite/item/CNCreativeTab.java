@@ -25,6 +25,8 @@ public class CNCreativeTab {
                         output.accept(CNItemList.UPGRADE_TEMPLATE_STRANGE.get());
                         output.accept(CNItemList.UPGRADE_TEMPLATE_CHARMED.get());
                         output.accept(CNItemList.UPGRADE_TEMPLATE_HARDENED.get());
+                        output.accept(CNItemList.UPGRADE_TEMPLATE_SOULSTOLEN.get());
+                        output.accept(CNItemList.UPGRADE_TEMPLATE_WINDSWEPT.get());
                         output.accept(CNBlockList.NETHER_FISSURE.get());
                         output.accept(CNBlockList.WIND_TRAP.get());
                     })

@@ -26,6 +26,11 @@ public class CNItemList {
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> UPGRADE_TEMPLATE_HARDENED = ITEMS.register("upgrade_template_hardened",
             () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> UPGRADE_TEMPLATE_SOULSTOLEN = ITEMS.register("upgrade_template_soulstolen",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> UPGRADE_TEMPLATE_WINDSWEPT = ITEMS.register("upgrade_template_windswept",
+            () -> new Item(new Item.Properties()));
+
 
 
     public static void register(IEventBus eventBus) {

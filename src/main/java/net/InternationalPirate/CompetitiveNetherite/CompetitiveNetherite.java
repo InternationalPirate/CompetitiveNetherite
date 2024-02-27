@@ -64,6 +64,8 @@ public class CompetitiveNetherite
             event.accept(CNItemList.UPGRADE_TEMPLATE_STRANGE);
             event.accept(CNItemList.UPGRADE_TEMPLATE_CHARMED);
             event.accept(CNItemList.UPGRADE_TEMPLATE_HARDENED);
+            event.accept(CNItemList.UPGRADE_TEMPLATE_SOULSTOLEN);
+            event.accept(CNItemList.UPGRADE_TEMPLATE_WINDSWEPT);
         }
         if(event.getTabKey() == CreativeModeTabs.REDSTONE_BLOCKS) {
             event.accept(CNBlockList.NETHER_FISSURE);
