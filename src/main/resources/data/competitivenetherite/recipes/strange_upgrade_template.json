@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " e ",
+    "ese",
+    " h "
+  ],
+  "key": {
+    "e": {
+      "item": "minecraft:eye_of_ender"
+    },
+    "h":{
+      "item": "competitivenetherite:strange_heart"
+    },
+    "s": {
+      "item": "minecraft:netherite_upgrade_smithing_template"
+    }
+  },
+  "result": {
+    "item": "competitivenetherite:upgrade_template_strange",
+    "count": 1
+  },
+  "show_notification": true
+}

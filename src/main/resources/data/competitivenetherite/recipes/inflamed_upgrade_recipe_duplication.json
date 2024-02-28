@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:netherite_upgrade_smithing_template"
+    },
+    {
+      "item": "competitivenetherite:upgrade_template_inflamed"
+    }
+  ],
+  "result": {
+    "item": "competitivenetherite:upgrade_template_inflamed",
+    "count": 2
+  },
+  "show_notification": true
+}

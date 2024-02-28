@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:netherite_upgrade_smithing_template"
+    },
+    {
+      "item": "competitivenetherite:upgrade_template_windswept"
+    }
+  ],
+  "result": {
+    "item": "competitivenetherite:upgrade_template_windswept",
+    "count": 2
+  },
+  "show_notification": true
+}

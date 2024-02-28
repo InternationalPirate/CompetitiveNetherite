@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " e ",
+    "ese",
+    " e "
+  ],
+  "key": {
+    "e": {
+      "item": "minecraft:echo_shard"
+    },
+    "s": {
+      "item": "minecraft:netherite_upgrade_smithing_template"
+    }
+  },
+  "result": {
+    "item": "competitivenetherite:upgrade_template_soulstolen",
+    "count": 1
+  },
+  "show_notification": true
+}

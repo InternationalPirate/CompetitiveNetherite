@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " p ",
+    "p p",
+    " p "
+  ],
+  "key": {
+    "p": {
+      "item": "minecraft:phantom_membrane"
+    }
+  },
+  "result": {
+    "item": "competitivenetherite:alluding_gust",
+    "count": 1
+  },
+  "show_notification": true
+}

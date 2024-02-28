@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ibi",
+    "bsb",
+    "ibi"
+  ],
+  "key": {
+    "b": {
+      "item": "minecraft:blaze_powder"
+    },
+    "i":{
+      "item": "competitivenetherite:infernal_pyre"
+    },
+    "s": {
+      "item": "minecraft:netherite_upgrade_smithing_template"
+    }
+  },
+  "result": {
+    "item": "competitivenetherite:upgrade_template_inflamed",
+    "count": 1
+  },
+  "show_notification": true
+}

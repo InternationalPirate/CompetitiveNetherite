@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " g ",
+    "gsg",
+    " g "
+  ],
+  "key": {
+    "g": {
+      "item": "minecraft:ghast_tear"
+    },
+    "s": {
+      "item": "minecraft:netherite_upgrade_smithing_template"
+    }
+  },
+  "result": {
+    "count": 1,
+    "item": "competitivenetherite:upgrade_template_charmed"
+  },
+  "show_notification": true
+}

@@ -18,6 +18,7 @@ public class CNCreativeTab {
             ()-> CreativeModeTab.builder().icon(()-> new ItemStack(CNItemList.UPGRADE_TEMPLATE_HARDENED.get()))
                     .title(Component.translatable("creativetab.competitivenetherite_tab"))
                     .displayItems((itemDisplayParameters, output) -> {
+                        output.accept(CNItemList.ALLUDING_GUST.get());
                         output.accept(CNItemList.INFERNAL_PYRE.get());
                         output.accept(CNItemList.STRANGE_HEART.get());
                         output.accept(CNItemList.ZEPHYR_BOTTLED.get());

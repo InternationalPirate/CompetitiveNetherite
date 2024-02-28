@@ -71,6 +71,11 @@ public class CompetitiveNetherite
             event.accept(CNBlockList.NETHER_FISSURE);
             event.accept(CNBlockList.WIND_TRAP);
         }
+        if(event.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
+            event.accept(CNItemList.ALLUDING_GUST.get());
+        }
+
+
     }
     // You can use SubscribeEvent and let the Event Bus discover methods to call
     @SubscribeEvent
