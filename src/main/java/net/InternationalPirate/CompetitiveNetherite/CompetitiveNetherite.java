@@ -66,6 +66,7 @@ public class CompetitiveNetherite
             event.accept(CNItemList.UPGRADE_TEMPLATE_HARDENED);
             event.accept(CNItemList.UPGRADE_TEMPLATE_SOULSTOLEN);
             event.accept(CNItemList.UPGRADE_TEMPLATE_WINDSWEPT);
+
         }
         if(event.getTabKey() == CreativeModeTabs.REDSTONE_BLOCKS) {
             event.accept(CNBlockList.NETHER_FISSURE);
@@ -73,8 +74,21 @@ public class CompetitiveNetherite
         }
         if(event.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
             event.accept(CNItemList.ALLUDING_GUST.get());
+            event.accept(CNItemList.INFLAMED_NETHERITE_SHOVEL.get());
+            event.accept(CNItemList.INFLAMED_NETHERITE_PICKAXE.get());
+            event.accept(CNItemList.INFLAMED_NETHERITE_AXE.get());
+            event.accept(CNItemList.INFLAMED_NETHERITE_HOE.get());
+            event.accept(CNItemList.STRANGE_NETHERITE_SHOVEL.get());
+            event.accept(CNItemList.STRANGE_NETHERITE_PICKAXE.get());
+            event.accept(CNItemList.STRANGE_NETHERITE_AXE.get());
+            event.accept(CNItemList.STRANGE_NETHERITE_HOE.get());
         }
-
+        if(event.getTabKey() == CreativeModeTabs.COMBAT) {
+            event.accept(CNItemList.INFLAMED_NETHERITE_AXE.get());
+            event.accept(CNItemList.INFLAMED_NETHERITE_SWORD.get());
+            event.accept(CNItemList.STRANGE_NETHERITE_AXE.get());
+            event.accept(CNItemList.STRANGE_NETHERITE_SWORD.get());
+        }
 
     }
     // You can use SubscribeEvent and let the Event Bus discover methods to call

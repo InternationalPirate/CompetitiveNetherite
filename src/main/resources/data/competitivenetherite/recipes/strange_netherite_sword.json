@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "minecraft:ender_pearl"
+  },
+  "base": {
+    "item": "minecraft:netherite_sword"
+  },
+  "result": {
+    "item": "competitivenetherite:strange_netherite_sword"
+  },
+  "template": {
+    "item": "competitivenetherite:upgrade_template_strange"
+  }
+}

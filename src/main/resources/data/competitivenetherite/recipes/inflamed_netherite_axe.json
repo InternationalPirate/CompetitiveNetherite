@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "minecraft:blaze_rod"
+  },
+  "base": {
+    "item": "minecraft:netherite_axe"
+  },
+  "result": {
+    "item": "competitivenetherite:inflamed_netherite_axe"
+  },
+  "template": {
+    "item": "competitivenetherite:upgrade_template_inflamed"
+  }
+}

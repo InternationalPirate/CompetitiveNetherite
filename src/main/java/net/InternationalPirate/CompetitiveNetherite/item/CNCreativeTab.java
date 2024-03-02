@@ -28,6 +28,18 @@ public class CNCreativeTab {
                         output.accept(CNItemList.UPGRADE_TEMPLATE_HARDENED.get());
                         output.accept(CNItemList.UPGRADE_TEMPLATE_SOULSTOLEN.get());
                         output.accept(CNItemList.UPGRADE_TEMPLATE_WINDSWEPT.get());
+
+                        output.accept(CNItemList.INFLAMED_NETHERITE_SHOVEL.get());
+                        output.accept(CNItemList.INFLAMED_NETHERITE_PICKAXE.get());
+                        output.accept(CNItemList.INFLAMED_NETHERITE_AXE.get());
+                        output.accept(CNItemList.INFLAMED_NETHERITE_HOE.get());
+                        output.accept(CNItemList.INFLAMED_NETHERITE_SWORD.get());
+                        output.accept(CNItemList.STRANGE_NETHERITE_SHOVEL.get());
+                        output.accept(CNItemList.STRANGE_NETHERITE_PICKAXE.get());
+                        output.accept(CNItemList.STRANGE_NETHERITE_AXE.get());
+                        output.accept(CNItemList.STRANGE_NETHERITE_HOE.get());
+                        output.accept(CNItemList.STRANGE_NETHERITE_SWORD.get());
+
                         output.accept(CNBlockList.NETHER_FISSURE.get());
                         output.accept(CNBlockList.WIND_TRAP.get());
                     })

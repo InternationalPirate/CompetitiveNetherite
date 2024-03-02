@@ -1,7 +1,7 @@
 package net.InternationalPirate.CompetitiveNetherite.item;
 
 import net.InternationalPirate.CompetitiveNetherite.CompetitiveNetherite;
-import net.minecraft.world.item.Item;
+import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -11,6 +11,7 @@ public class CNItemList {
     public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, CompetitiveNetherite.MODID);
 
+    //GENERAL ITEM LIST
     public static final RegistryObject<Item> ALLUDING_GUST = ITEMS.register("alluding_gust",
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> INFERNAL_PYRE = ITEMS.register("infernal_pyre",
@@ -20,6 +21,7 @@ public class CNItemList {
     public static final RegistryObject<Item> ZEPHYR_BOTTLED = ITEMS.register("zephyr_bottled",
             () -> new Item(new Item.Properties()));
 
+    //NEW UPGRADE TEMPLATE LIST
     public static final RegistryObject<Item> UPGRADE_TEMPLATE_INFLAMED = ITEMS.register("upgrade_template_inflamed",
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> UPGRADE_TEMPLATE_STRANGE = ITEMS.register("upgrade_template_strange",
@@ -32,6 +34,29 @@ public class CNItemList {
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> UPGRADE_TEMPLATE_WINDSWEPT = ITEMS.register("upgrade_template_windswept",
             () -> new Item(new Item.Properties()));
+
+    //TOOL AND WEAPON LIST
+    public static final RegistryObject<Item> INFLAMED_NETHERITE_SWORD = ITEMS.register("inflamed_netherite_sword",
+            () -> new ItemInflamedSword(SpecialNetheriteTiers.NETHERITE_TIER_INFLAMED, 3, -2.4f, new Item.Properties()));
+    public static final RegistryObject<Item> INFLAMED_NETHERITE_AXE = ITEMS.register("inflamed_netherite_axe",
+            () -> new ItemInflamedAxe(SpecialNetheriteTiers.NETHERITE_TIER_INFLAMED, 5, -3f, new Item.Properties()));
+    public static final RegistryObject<Item> INFLAMED_NETHERITE_PICKAXE = ITEMS.register("inflamed_netherite_pickaxe",
+            () -> new ItemInflamedPickaxe(SpecialNetheriteTiers.NETHERITE_TIER_INFLAMED, -2, -2.8f, new Item.Properties()));
+    public static final RegistryObject<Item> INFLAMED_NETHERITE_SHOVEL = ITEMS.register("inflamed_netherite_shovel",
+            () -> new ItemInflamedShovel(SpecialNetheriteTiers.NETHERITE_TIER_INFLAMED, 1, -2.4f, new Item.Properties()));
+    public static final RegistryObject<Item> INFLAMED_NETHERITE_HOE = ITEMS.register("inflamed_netherite_hoe",
+            () -> new ItemInflamedHoe(SpecialNetheriteTiers.NETHERITE_TIER_INFLAMED, -5, 0, new Item.Properties()));
+    public static final RegistryObject<Item> STRANGE_NETHERITE_SWORD = ITEMS.register("strange_netherite_sword",
+            () -> new ItemStrangeSword(SpecialNetheriteTiers.NETHERITE_TIER_STRANGE, 2, -2.4f, new Item.Properties()));
+    public static final RegistryObject<Item> STRANGE_NETHERITE_AXE = ITEMS.register("strange_netherite_axe",
+            () -> new ItemInflamedAxe(SpecialNetheriteTiers.NETHERITE_TIER_STRANGE, 3, -3f, new Item.Properties()));
+    public static final RegistryObject<Item> STRANGE_NETHERITE_PICKAXE = ITEMS.register("strange_netherite_pickaxe",
+            () -> new ItemInflamedPickaxe(SpecialNetheriteTiers.NETHERITE_TIER_STRANGE, -3, -2.8f, new Item.Properties()));
+    public static final RegistryObject<Item> STRANGE_NETHERITE_SHOVEL = ITEMS.register("strange_netherite_shovel",
+            () -> new ItemInflamedShovel(SpecialNetheriteTiers.NETHERITE_TIER_STRANGE, 0, -2.4f, new Item.Properties()));
+    public static final RegistryObject<Item> STRANGE_NETHERITE_HOE = ITEMS.register("strange_netherite_hoe",
+            () -> new ItemInflamedHoe(SpecialNetheriteTiers.NETHERITE_TIER_STRANGE, -6, 0, new Item.Properties()));
+
 
 
 

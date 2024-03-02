@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "competitivenetherite:item/inflamed_netherite_sword"
+  }
+}
