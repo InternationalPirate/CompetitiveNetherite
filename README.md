@@ -4,7 +4,7 @@ The Competitive Netherite Mod implements several upgrades to the netherite armor
 The mod is a WIP as of now.
 
 ## Tiers
-As of now, there are six planned tiers of upgraded netherite armor.
+As of now, there are six planned tiers of upgraded netherite armor. In addition to granting special abilities, each tier also upgrades the base stats of netherite tools and armor.
 
 ### Inflamed
 In order to craft this set of armor, you need an inflamed smithing template and a blaze rod.
