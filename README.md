@@ -28,12 +28,12 @@ In order to craft this set of armor, you need a hardened smithing template and a
 * To craft the template, you need a regular upgrade template and 1 netherite ingot.
 * Hardened tools and armor are far stronger than their normal netherite counterparts.
 
-* ## Soulstolen
+## Soulstolen
 In order to craft this set of armor, you need a soulstolen smithing template and a skull catalyst.
 * To craft the template, you need a regular upgrade template and 4 echo shards.
-* * Soulstolen tools grant strength and absorption per kill, while the armor grants health boost.
+*  Soulstolen tools grant strength and absorption per kill, while the armor grants health boost.
 
-* * ## Windswept
+## Windswept
 In order to craft this set of armor, you need a windswept smithing template and a phantom membrane.
 * To craft the template, you need a regular upgrade template and 1 zephyr in a botte.
 * In order to obtain said item, you need to locate sky shrines and fight Zephyr, a boss mob who relies on the wind to attack the player.
