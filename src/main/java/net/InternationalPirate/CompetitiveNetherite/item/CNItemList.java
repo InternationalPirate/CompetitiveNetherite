@@ -49,7 +49,7 @@ public class CNItemList {
     public static final RegistryObject<Item> STRANGE_NETHERITE_SWORD = ITEMS.register("strange_netherite_sword",
             () -> new ItemStrangeSword(SpecialNetheriteTiers.NETHERITE_TIER_STRANGE, 2, -2.4f, new Item.Properties()));
     public static final RegistryObject<Item> STRANGE_NETHERITE_AXE = ITEMS.register("strange_netherite_axe",
-            () -> new ItemStrangeAxe(SpecialNetheriteTiers.NETHERITE_TIER_STRANGE, 3, -3f, new Item.Properties()));
+            () -> new ItemStrangeAxe(SpecialNetheriteTiers.NETHERITE_TIER_STRANGE, 4, -3f, new Item.Properties()));
     public static final RegistryObject<Item> STRANGE_NETHERITE_PICKAXE = ITEMS.register("strange_netherite_pickaxe",
             () -> new ItemStrangePickaxe(SpecialNetheriteTiers.NETHERITE_TIER_STRANGE, -3, -2.8f, new Item.Properties()));
     public static final RegistryObject<Item> STRANGE_NETHERITE_SHOVEL = ITEMS.register("strange_netherite_shovel",
