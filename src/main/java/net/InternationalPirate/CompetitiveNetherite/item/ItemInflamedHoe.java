@@ -13,7 +13,7 @@ public class ItemInflamedHoe extends HoeItem {
 
     @Override
     public boolean hurtEnemy(@NotNull ItemStack pStack, LivingEntity pTarget, @NotNull LivingEntity pAttacker) {
-        pTarget.setSecondsOnFire(5);
+        pTarget.setSecondsOnFire(11);
         return super.hurtEnemy(pStack, pTarget, pAttacker);
     }
 }
