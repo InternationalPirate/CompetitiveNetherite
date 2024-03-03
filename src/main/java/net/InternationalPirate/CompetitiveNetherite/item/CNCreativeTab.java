@@ -18,6 +18,7 @@ public class CNCreativeTab {
             ()-> CreativeModeTab.builder().icon(()-> new ItemStack(CNItemList.UPGRADE_TEMPLATE_HARDENED.get()))
                     .title(Component.translatable("creativetab.competitivenetherite_tab"))
                     .displayItems((itemDisplayParameters, output) -> {
+                        //GENERAL ITEMS
                         output.accept(CNItemList.ALLUDING_GUST.get());
                         output.accept(CNItemList.INFERNAL_PYRE.get());
                         output.accept(CNItemList.STRANGE_HEART.get());
@@ -29,6 +30,7 @@ public class CNCreativeTab {
                         output.accept(CNItemList.UPGRADE_TEMPLATE_SOULSTOLEN.get());
                         output.accept(CNItemList.UPGRADE_TEMPLATE_WINDSWEPT.get());
 
+                        //TOOLS AND WEAPONS
                         output.accept(CNItemList.INFLAMED_NETHERITE_SHOVEL.get());
                         output.accept(CNItemList.INFLAMED_NETHERITE_PICKAXE.get());
                         output.accept(CNItemList.INFLAMED_NETHERITE_AXE.get());
@@ -40,6 +42,13 @@ public class CNCreativeTab {
                         output.accept(CNItemList.STRANGE_NETHERITE_HOE.get());
                         output.accept(CNItemList.STRANGE_NETHERITE_SWORD.get());
 
+                        //ARMOR
+                        output.accept(CNItemList.INFLAMED_NETHERITE_HELMET.get());
+                        output.accept(CNItemList.INFLAMED_NETHERITE_CHESTPLATE.get());
+                        output.accept(CNItemList.INFLAMED_NETHERITE_LEGGINGS.get());
+                        output.accept(CNItemList.INFLAMED_NETHERITE_BOOTS.get());
+
+                        //BLOCKS
                         output.accept(CNBlockList.NETHER_FISSURE.get());
                         output.accept(CNBlockList.WIND_TRAP.get());
                     })

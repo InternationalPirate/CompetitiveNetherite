@@ -57,7 +57,15 @@ public class CNItemList {
     public static final RegistryObject<Item> STRANGE_NETHERITE_HOE = ITEMS.register("strange_netherite_hoe",
             () -> new ItemStrangeHoe(SpecialNetheriteTiers.NETHERITE_TIER_STRANGE, -6, 0, new Item.Properties()));
 
-
+    //ARMOR LIST
+    public static final RegistryObject<Item> INFLAMED_NETHERITE_HELMET = ITEMS.register("armor_inflamed_netherite_helmet",
+            () -> new ArmorItem(CNArmorMaterials.INFLAMED, ArmorItem.Type.HELMET, new Item.Properties()));
+    public static final RegistryObject<Item> INFLAMED_NETHERITE_CHESTPLATE = ITEMS.register("armor_inflamed_netherite_chestplate",
+            () -> new ArmorItem(CNArmorMaterials.INFLAMED, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
+    public static final RegistryObject<Item> INFLAMED_NETHERITE_LEGGINGS = ITEMS.register("armor_inflamed_netherite_leggings",
+            () -> new ArmorItem(CNArmorMaterials.INFLAMED, ArmorItem.Type.LEGGINGS, new Item.Properties()));
+    public static final RegistryObject<Item> INFLAMED_NETHERITE_BOOTS = ITEMS.register("armor_inflamed_netherite_boots",
+            () -> new ArmorItem(CNArmorMaterials.INFLAMED, ArmorItem.Type.BOOTS, new Item.Properties()));
 
 
     public static void register(IEventBus eventBus) {
