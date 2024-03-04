@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "minecraft:netherite_scrap"
+  },
+  "base": {
+    "item": "minecraft:netherite_helmet"
+  },
+  "result": {
+    "item": "competitivenetherite:armor_hardened_netherite_helmet"
+  },
+  "template": {
+    "item": "competitivenetherite:upgrade_template_hardened"
+  }
+}

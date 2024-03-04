@@ -48,6 +48,11 @@ public class CNCreativeTab {
                         output.accept(CNItemList.INFLAMED_NETHERITE_LEGGINGS.get());
                         output.accept(CNItemList.INFLAMED_NETHERITE_BOOTS.get());
 
+                        output.accept(CNItemList.HARDENED_NETHERITE_HELMET.get());
+                        output.accept(CNItemList.HARDENED_NETHERITE_CHESTPLATE.get());
+                        output.accept(CNItemList.HARDENED_NETHERITE_LEGGINGS.get());
+                        output.accept(CNItemList.HARDENED_NETHERITE_BOOTS.get());
+
                         //BLOCKS
                         output.accept(CNBlockList.NETHER_FISSURE.get());
                         output.accept(CNBlockList.WIND_TRAP.get());
