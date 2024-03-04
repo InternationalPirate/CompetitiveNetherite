@@ -8,6 +8,8 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Tier;
 import org.jetbrains.annotations.NotNull;
 
+import java.util.logging.Level;
+
 public class ItemStrangeAxe extends AxeItem {
 
     public ItemStrangeAxe(Tier pTier, int pAttackDamageModifier, float pAttackSpeedModifier, Properties pProperties) {
@@ -17,6 +19,7 @@ public class ItemStrangeAxe extends AxeItem {
     @Override
     public boolean hurtEnemy(@NotNull ItemStack pStack, @NotNull LivingEntity pTarget, @NotNull LivingEntity pAttacker) {
         pTarget.addEffect(new MobEffectInstance(MobEffects.LEVITATION, 200), pAttacker);
+        pTarget.addEffect(new MobEffectInstance(MobEffects.WEAKNESS, 100, 2), pAttacker);
         pTarget.addEffect(new MobEffectInstance(MobEffects.GLOWING, 1200), pAttacker);
         return super.hurtEnemy(pStack, pTarget, pAttacker);
     }
