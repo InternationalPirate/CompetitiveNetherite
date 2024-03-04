@@ -17,6 +17,7 @@ public class ItemStrangeShovel extends ShovelItem {
     @Override
     public boolean hurtEnemy(@NotNull ItemStack pStack, @NotNull LivingEntity pTarget, @NotNull LivingEntity pAttacker) {
         pTarget.addEffect(new MobEffectInstance(MobEffects.LEVITATION, 200), pAttacker);
+        pTarget.addEffect(new MobEffectInstance(MobEffects.GLOWING, 1200), pAttacker);
         return super.hurtEnemy(pStack, pTarget, pAttacker);
     }
 }
