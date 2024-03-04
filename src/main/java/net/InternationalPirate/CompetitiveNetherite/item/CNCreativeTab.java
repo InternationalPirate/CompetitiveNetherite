@@ -48,6 +48,10 @@ public class CNCreativeTab {
                         output.accept(CNItemList.INFLAMED_NETHERITE_LEGGINGS.get());
                         output.accept(CNItemList.INFLAMED_NETHERITE_BOOTS.get());
 
+                        output.accept(CNItemList.CHARMED_NETHERITE_HELMET.get());
+                        output.accept(CNItemList.CHARMED_NETHERITE_CHESTPLATE.get());
+                        output.accept(CNItemList.CHARMED_NETHERITE_LEGGINGS.get());
+                        output.accept(CNItemList.CHARMED_NETHERITE_BOOTS.get());
                         output.accept(CNItemList.HARDENED_NETHERITE_HELMET.get());
                         output.accept(CNItemList.HARDENED_NETHERITE_CHESTPLATE.get());
                         output.accept(CNItemList.HARDENED_NETHERITE_LEGGINGS.get());
