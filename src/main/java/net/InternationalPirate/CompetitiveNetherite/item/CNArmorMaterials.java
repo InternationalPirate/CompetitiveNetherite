@@ -12,8 +12,8 @@ import java.util.function.Supplier;
 
 public enum CNArmorMaterials implements ArmorMaterial {
     INFLAMED("inflamed_netherite", 200, new int[]{5, 10, 8, 5}, 20, SoundEvents.ARMOR_EQUIP_NETHERITE, 4f, .2f, ()->Ingredient.of(Items.NETHERITE_INGOT)),
+    CHARMED("charmed_netherite", 125, new int[]{6, 9, 8, 4}, 20, SoundEvents.ARMOR_EQUIP_NETHERITE, 3.5f, .1f, ()->Ingredient.of(Items.NETHERITE_INGOT)),
     HARDENED("hardened_netherite", 500, new int[]{8, 12, 10, 7}, 15, SoundEvents.ARMOR_EQUIP_NETHERITE, 7f, 1f, ()->Ingredient.of(Items.NETHERITE_INGOT));
-
     private final String name;
     private final int durabilityMultiplier;
     private final int[] protectionAmounts;
