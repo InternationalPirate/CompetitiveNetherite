@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "minecraft:glistering_melon"
+  },
+  "base": {
+    "item": "minecraft:netherite_sword"
+  },
+  "result": {
+    "item": "competitivenetherite:charmed_netherite_sword"
+  },
+  "template": {
+    "item": "competitivenetherite:upgrade_template_charmed"
+  }
+}
