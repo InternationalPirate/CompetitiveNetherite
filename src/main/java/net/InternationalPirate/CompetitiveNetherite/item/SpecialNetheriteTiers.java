@@ -19,11 +19,17 @@ import java.util.List;
 public class SpecialNetheriteTiers {
     public static final Tier NETHERITE_TIER_INFLAMED = TierSortingRegistry.registerTier(
             new ForgeTier(5, 3000, 9f, 8f, 20, CNTags.Blocks.NEEDS_SPECIAL_NETHERITE, ()-> Ingredient.of(Items.NETHERITE_INGOT)),
-            new ResourceLocation(CompetitiveNetherite.MODID, "infernal_pyre"), List.of(Tiers.NETHERITE), List.of());
+            new ResourceLocation(CompetitiveNetherite.MODID, "inflamed"), List.of(Tiers.NETHERITE), List.of());
 
     public static final Tier NETHERITE_TIER_STRANGE = TierSortingRegistry.registerTier(
             new ForgeTier(5, 3500, 9f, 8f, 20, CNTags.Blocks.NEEDS_SPECIAL_NETHERITE, ()-> Ingredient.of(Items.NETHERITE_INGOT)),
-            new ResourceLocation(CompetitiveNetherite.MODID, "strange_heart"), List.of(Tiers.NETHERITE), List.of());
+            new ResourceLocation(CompetitiveNetherite.MODID, "strange"), List.of(Tiers.NETHERITE), List.of());
+    public static final Tier NETHERITE_TIER_CHARMED = TierSortingRegistry.registerTier(
+            new ForgeTier(5, 2500, 9f, 8f, 20, CNTags.Blocks.NEEDS_SPECIAL_NETHERITE, ()-> Ingredient.of(Items.NETHERITE_INGOT)),
+            new ResourceLocation(CompetitiveNetherite.MODID, "charmed"), List.of(Tiers.NETHERITE), List.of());
+    public static final Tier NETHERITE_TIER_HARDENED = TierSortingRegistry.registerTier(
+            new ForgeTier(5, 8800, 9f, 8f, 15, CNTags.Blocks.NEEDS_SPECIAL_NETHERITE, ()-> Ingredient.of(Items.NETHERITE_INGOT)),
+            new ResourceLocation(CompetitiveNetherite.MODID, "hardened"), List.of(Tiers.NETHERITE), List.of());
 }
 
 

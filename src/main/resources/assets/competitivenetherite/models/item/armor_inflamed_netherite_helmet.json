@@ -1,6 +1,7 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "competitivenetherite:item/armor_inflamed_netherite_helmet"
+    "layer0": "competitivenetherite:item/armor_inflamed_netherite_helmet",
+    "layer1": "competitivenetherite:item/armor_inflamed_netherite_helmet_crown"
   }
 }
