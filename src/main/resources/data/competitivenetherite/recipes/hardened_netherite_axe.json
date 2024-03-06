@@ -4,10 +4,10 @@
     "item": "minecraft:netherite_ingot"
   },
   "base": {
-    "item": "minecraft:netherite_boots"
+    "item": "minecraft:netherite_axe"
   },
   "result": {
-    "item": "competitivenetherite:armor_hardened_netherite_boots"
+    "item": "competitivenetherite:hardened_netherite_axe"
   },
   "template": {
     "item": "competitivenetherite:upgrade_template_hardened"

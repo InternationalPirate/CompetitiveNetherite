@@ -46,6 +46,11 @@ public class CNCreativeTab {
                         output.accept(CNItemList.CHARMED_NETHERITE_PICKAXE.get());
                         output.accept(CNItemList.CHARMED_NETHERITE_SHOVEL.get());
                         output.accept(CNItemList.CHARMED_NETHERITE_HOE.get());
+                        output.accept(CNItemList.HARDENED_NETHERITE_SWORD.get());
+                        output.accept(CNItemList.HARDENED_NETHERITE_AXE.get());
+                        output.accept(CNItemList.HARDENED_NETHERITE_PICKAXE.get());
+                        output.accept(CNItemList.HARDENED_NETHERITE_SHOVEL.get());
+                        output.accept(CNItemList.HARDENED_NETHERITE_HOE.get());
 
                         //ARMOR
                         output.accept(CNItemList.INFLAMED_NETHERITE_HELMET.get());

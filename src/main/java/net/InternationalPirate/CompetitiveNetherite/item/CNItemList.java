@@ -66,6 +66,16 @@ public class CNItemList {
             () -> new ItemCharmedShovel(SpecialNetheriteTiers.NETHERITE_TIER_CHARMED, -1, -2.4f, new Item.Properties()));
     public static final RegistryObject<Item> CHARMED_NETHERITE_HOE = ITEMS.register("charmed_netherite_hoe",
             () -> new ItemCharmedHoe(SpecialNetheriteTiers.NETHERITE_TIER_CHARMED, -7, 0, new Item.Properties()));
+    public static final RegistryObject<Item> HARDENED_NETHERITE_SWORD = ITEMS.register("hardened_netherite_sword",
+            () -> new ItemHardenedSword(SpecialNetheriteTiers.NETHERITE_TIER_HARDENED, 16, -2.8f, new Item.Properties()));
+    public static final RegistryObject<Item> HARDENED_NETHERITE_AXE = ITEMS.register("hardened_netherite_axe",
+            () -> new ItemHardenedAxe(SpecialNetheriteTiers.NETHERITE_TIER_HARDENED, 26, -3.5f, new Item.Properties()));
+    public static final RegistryObject<Item> HARDENED_NETHERITE_PICKAXE = ITEMS.register("hardened_netherite_pickaxe",
+            () -> new ItemHardenedPickaxe(SpecialNetheriteTiers.NETHERITE_TIER_HARDENED, 10, -3.1f, new Item.Properties()));
+    public static final RegistryObject<Item> HARDENED_NETHERITE_SHOVEL = ITEMS.register("hardened_netherite_shovel",
+            () -> new ItemHardenedShovel(SpecialNetheriteTiers.NETHERITE_TIER_HARDENED, 9, -2.8f, new Item.Properties()));
+    public static final RegistryObject<Item> HARDENED_NETHERITE_HOE = ITEMS.register("hardened_netherite_hoe",
+            () -> new ItemHardenedHoe(SpecialNetheriteTiers.NETHERITE_TIER_HARDENED, 10, -3, new Item.Properties()));
 
     //ARMOR LIST
     public static final RegistryObject<Item> INFLAMED_NETHERITE_HELMET = ITEMS.register("armor_inflamed_netherite_helmet",

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "competitivenetherite:item/hardened_netherite_shovel"
+  }
+}
