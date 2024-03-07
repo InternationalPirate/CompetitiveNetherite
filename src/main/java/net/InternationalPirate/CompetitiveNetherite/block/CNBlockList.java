@@ -19,9 +19,9 @@ public class CNBlockList {
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, CompetitiveNetherite.MODID);
 
     public static final RegistryObject<Block> NETHER_FISSURE = registerBlock("nether_fissure",
-            ()-> new Block(BlockBehaviour.Properties.copy(Blocks.NETHERRACK)));
+            ()-> new BlockNetherFissure(BlockBehaviour.Properties.copy(Blocks.NETHERRACK)));
     public static final RegistryObject<Block> WIND_TRAP = registerBlock("wind_trap",
-            ()-> new Block(BlockBehaviour.Properties.copy(Blocks.STONE_BRICKS)));
+            ()-> new BlockWindTrap(BlockBehaviour.Properties.copy(Blocks.STONE_BRICKS)));
 
 
     private static<T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
