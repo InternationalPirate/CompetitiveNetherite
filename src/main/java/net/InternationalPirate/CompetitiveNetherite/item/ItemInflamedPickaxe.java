@@ -16,40 +16,14 @@ public class ItemInflamedPickaxe extends PickaxeItem {
     }
 
     @Override
-    public boolean hurtEnemy(@NotNull ItemStack pStack, LivingEntity pTarget, @NotNull LivingEntity pAttacker) {
-        if (pTarget instanceof Blaze) {
-            pTarget.hurt(pAttacker.level().damageSources().generic(), 24);
+    public boolean hurtEnemy(@NotNull ItemStack pStack, @NotNull LivingEntity pTarget, @NotNull LivingEntity pAttacker) {
+        if (pTarget instanceof Blaze || pTarget instanceof MagmaCube || pTarget instanceof Ghast || pTarget instanceof WitherSkeleton || pTarget instanceof ZombifiedPiglin || pTarget instanceof Strider || pTarget instanceof Zoglin) {
+            pTarget.hurt(pAttacker.damageSources().generic(), 24);
             return super.hurtEnemy(pStack, pTarget, pAttacker);
         }
-        if (pTarget instanceof MagmaCube) {
-            pTarget.hurt(pAttacker.level().damageSources().generic(), 24);
-            return super.hurtEnemy(pStack, pTarget, pAttacker);
-        }
-        if (pTarget instanceof Piglin) {
-            pTarget.hurt(pAttacker.level().damageSources().generic(), 24);
+        if (pTarget instanceof Piglin || pTarget instanceof PiglinBrute || pTarget instanceof Hoglin) {
+            pTarget.hurt(pAttacker.damageSources().generic(), 24);
             pTarget.setSecondsOnFire(11);
-            return super.hurtEnemy(pStack, pTarget, pAttacker);
-        }
-        if (pTarget instanceof PiglinBrute) {
-            pTarget.hurt(pAttacker.level().damageSources().generic(), 24);
-            pTarget.setSecondsOnFire(11);
-            return super.hurtEnemy(pStack, pTarget, pAttacker);
-        }
-        if (pTarget instanceof Hoglin) {
-            pTarget.hurt(pAttacker.level().damageSources().generic(), 24);
-            pTarget.setSecondsOnFire(11);
-            return super.hurtEnemy(pStack, pTarget, pAttacker);
-        }
-        if (pTarget instanceof ZombifiedPiglin) {
-            pTarget.hurt(pAttacker.level().damageSources().generic(), 24);
-            return super.hurtEnemy(pStack, pTarget, pAttacker);
-        }
-        if (pTarget instanceof Zoglin) {
-            pTarget.hurt(pAttacker.level().damageSources().generic(), 24);
-            return super.hurtEnemy(pStack, pTarget, pAttacker);
-        }
-        if (pTarget instanceof WitherSkeleton) {
-            pTarget.hurt(pAttacker.level().damageSources().generic(), 24);
             return super.hurtEnemy(pStack, pTarget, pAttacker);
         }
         pTarget.setSecondsOnFire(11);
