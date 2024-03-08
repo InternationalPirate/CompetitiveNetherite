@@ -1,6 +1,6 @@
 package net.InternationalPirate.CompetitiveNetherite.item;
 
-import net.InternationalPirate.CompetitiveNetherite.client.model.armor.InflamedNetheriteArmorRenderer;
+import net.InternationalPirate.CompetitiveNetherite.item.client.InflamedNetheriteArmorRenderer;
 import net.minecraft.client.model.HumanoidModel;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.LivingEntity;
@@ -22,8 +22,6 @@ public class ItemInflamedArmor extends ArmorItem implements GeoItem {
     public ItemInflamedArmor(ArmorMaterial pMaterial, Type pType, Properties pProperties) {
         super(pMaterial, pType, pProperties);
     }
-    //@Override
-    //{}
     @Override
     public void initializeClient(Consumer<IClientItemExtensions> consumer) {
         consumer.accept(new IClientItemExtensions() {

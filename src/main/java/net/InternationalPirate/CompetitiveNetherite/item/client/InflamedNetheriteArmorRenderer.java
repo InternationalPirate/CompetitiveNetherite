@@ -1,9 +1,7 @@
-package net.InternationalPirate.CompetitiveNetherite.client.model.armor;
+package net.InternationalPirate.CompetitiveNetherite.item.client;
 
-import net.InternationalPirate.CompetitiveNetherite.CompetitiveNetherite;
-import net.InternationalPirate.CompetitiveNetherite.client.model.armor.InflamedNetheriteArmorModel;
+import net.InternationalPirate.CompetitiveNetherite.item.client.InflamedNetheriteArmorModel;
 import net.InternationalPirate.CompetitiveNetherite.item.ItemInflamedArmor;
-import net.minecraft.resources.ResourceLocation;
 import software.bernie.geckolib.renderer.GeoArmorRenderer;
 
 public class InflamedNetheriteArmorRenderer extends GeoArmorRenderer<ItemInflamedArmor> {

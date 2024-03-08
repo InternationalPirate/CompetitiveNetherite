@@ -79,13 +79,13 @@ public class CNItemList {
 
     //ARMOR LIST
     public static final RegistryObject<Item> INFLAMED_NETHERITE_HELMET = ITEMS.register("armor_inflamed_netherite_helmet",
-            () -> new ArmorItem(CNArmorMaterials.INFLAMED, ArmorItem.Type.HELMET, new Item.Properties()));
+            () -> new ItemInflamedArmor(CNArmorMaterials.INFLAMED, ArmorItem.Type.HELMET, new Item.Properties()));
     public static final RegistryObject<Item> INFLAMED_NETHERITE_CHESTPLATE = ITEMS.register("armor_inflamed_netherite_chestplate",
-            () -> new ArmorItem(CNArmorMaterials.INFLAMED, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
+            () -> new ItemInflamedArmor(CNArmorMaterials.INFLAMED, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
     public static final RegistryObject<Item> INFLAMED_NETHERITE_LEGGINGS = ITEMS.register("armor_inflamed_netherite_leggings",
-            () -> new ArmorItem(CNArmorMaterials.INFLAMED, ArmorItem.Type.LEGGINGS, new Item.Properties()));
+            () -> new ItemInflamedArmor(CNArmorMaterials.INFLAMED, ArmorItem.Type.LEGGINGS, new Item.Properties()));
     public static final RegistryObject<Item> INFLAMED_NETHERITE_BOOTS = ITEMS.register("armor_inflamed_netherite_boots",
-            () -> new ArmorItem(CNArmorMaterials.INFLAMED, ArmorItem.Type.BOOTS, new Item.Properties()));
+            () -> new ItemInflamedArmor(CNArmorMaterials.INFLAMED, ArmorItem.Type.BOOTS, new Item.Properties()));
 
     public static final RegistryObject<Item> CHARMED_NETHERITE_HELMET = ITEMS.register("armor_charmed_netherite_helmet",
             () -> new ItemCNArmor(CNArmorMaterials.CHARMED, ArmorItem.Type.HELMET, new Item.Properties()));

@@ -1,4 +1,4 @@
-package net.InternationalPirate.CompetitiveNetherite.client.model.armor;
+package net.InternationalPirate.CompetitiveNetherite.item.client;
 
 import net.InternationalPirate.CompetitiveNetherite.CompetitiveNetherite;
 import net.InternationalPirate.CompetitiveNetherite.item.ItemInflamedArmor;
@@ -19,6 +19,6 @@ public class InflamedNetheriteArmorModel extends GeoModel<ItemInflamedArmor> {
 
     @Override
     public ResourceLocation getAnimationResource(ItemInflamedArmor itemInflamedArmor) {
-        return new ResourceLocation(CompetitiveNetherite.MODID, "animations/inflamednetheritearmor.json");
+        return new ResourceLocation(CompetitiveNetherite.MODID, "animations/inflamednetheritearmor.animation.json");
     }
 }
