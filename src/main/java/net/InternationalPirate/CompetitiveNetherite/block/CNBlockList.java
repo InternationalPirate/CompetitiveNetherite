@@ -7,6 +7,7 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.NetherrackBlock;
+import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -18,10 +19,9 @@ import java.util.function.Supplier;
 public class CNBlockList {
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, CompetitiveNetherite.MODID);
 
-    public static final RegistryObject<Block> NETHER_FISSURE = registerBlock("nether_fissure",
-            ()-> new BlockNetherFissure(BlockBehaviour.Properties.copy(Blocks.NETHERRACK)));
-    public static final RegistryObject<Block> WIND_TRAP = registerBlock("wind_trap",
-            ()-> new BlockWindTrap(BlockBehaviour.Properties.copy(Blocks.STONE_BRICKS)));
+    public static final RegistryObject<Block> NETHER_FISSURE = registerBlock("nether_fissure", ()-> new BlockNetherFissure(BlockBehaviour.Properties.copy(Blocks.NETHERRACK)));
+    public static final RegistryObject<Block> WIND_TRAP = registerBlock("wind_trap", ()-> new BlockWindTrap(BlockBehaviour.Properties.copy(Blocks.STONE_BRICKS)));
+    public static final RegistryObject<Block> WIND_ALTAR = registerBlock("wind_altar", ()-> new BlockWindTrap(BlockBehaviour.Properties.copy(Blocks.END_PORTAL_FRAME).sound(SoundType.STONE)));
 
 
     private static<T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
