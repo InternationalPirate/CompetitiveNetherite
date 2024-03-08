@@ -14,6 +14,10 @@ public class ItemInflamedShovel extends ShovelItem {
     public ItemInflamedShovel(Tier pTier, int pAttackDamageModifier, float pAttackSpeedModifier, Properties pProperties) {
         super(pTier, pAttackDamageModifier, pAttackSpeedModifier, pProperties);
     }
+    @Override
+    public boolean isFireResistant() {
+        return super.isFireResistant();
+    }
 
     @Override
     public boolean hurtEnemy(@NotNull ItemStack pStack, @NotNull LivingEntity pTarget, @NotNull LivingEntity pAttacker) {

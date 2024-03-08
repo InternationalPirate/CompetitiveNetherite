@@ -17,6 +17,11 @@ public class ItemStrangeAxe extends AxeItem {
     }
 
     @Override
+    public boolean isFireResistant() {
+        return super.isFireResistant();
+    }
+
+    @Override
     public boolean hurtEnemy(@NotNull ItemStack pStack, @NotNull LivingEntity pTarget, @NotNull LivingEntity pAttacker) {
         pTarget.addEffect(new MobEffectInstance(MobEffects.LEVITATION, 200), pAttacker);
         pTarget.addEffect(new MobEffectInstance(MobEffects.WEAKNESS, 100, 2), pAttacker);

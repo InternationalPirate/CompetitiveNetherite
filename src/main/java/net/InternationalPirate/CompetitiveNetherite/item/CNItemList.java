@@ -18,8 +18,8 @@ public class CNItemList {
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> STRANGE_HEART = ITEMS.register("strange_heart",
             () -> new Item(new Item.Properties()));
-    public static final RegistryObject<Item> ZEPHYR_BOTTLED = ITEMS.register("zephyr_bottled",
-            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> GALE_BOTTLED = ITEMS.register("gale_bottled",
+            () -> new ItemGaleBottled(new Item.Properties()));
 
     //NEW UPGRADE TEMPLATE LIST
     public static final RegistryObject<Item> UPGRADE_TEMPLATE_INFLAMED = ITEMS.register("upgrade_template_inflamed",

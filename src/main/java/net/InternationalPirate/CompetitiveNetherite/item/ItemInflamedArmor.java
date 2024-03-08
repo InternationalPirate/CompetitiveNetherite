@@ -22,6 +22,7 @@ public class ItemInflamedArmor extends ArmorItem implements GeoItem {
     public ItemInflamedArmor(ArmorMaterial pMaterial, Type pType, Properties pProperties) {
         super(pMaterial, pType, pProperties);
     }
+
     @Override
     public void initializeClient(Consumer<IClientItemExtensions> consumer) {
         consumer.accept(new IClientItemExtensions() {

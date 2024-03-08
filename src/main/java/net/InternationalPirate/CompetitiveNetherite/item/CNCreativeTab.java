@@ -22,7 +22,7 @@ public class CNCreativeTab {
                         output.accept(CNItemList.ALLUDING_GUST.get());
                         output.accept(CNItemList.INFERNAL_PYRE.get());
                         output.accept(CNItemList.STRANGE_HEART.get());
-                        output.accept(CNItemList.ZEPHYR_BOTTLED.get());
+                        output.accept(CNItemList.GALE_BOTTLED.get());
                         output.accept(CNItemList.UPGRADE_TEMPLATE_INFLAMED.get());
                         output.accept(CNItemList.UPGRADE_TEMPLATE_STRANGE.get());
                         output.accept(CNItemList.UPGRADE_TEMPLATE_CHARMED.get());
