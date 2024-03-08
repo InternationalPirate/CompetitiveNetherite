@@ -3,6 +3,7 @@ package net.InternationalPirate.CompetitiveNetherite.item;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.entity.LivingEntity;
+import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.PickaxeItem;
 import net.minecraft.world.item.Tier;
@@ -11,7 +12,7 @@ import org.jetbrains.annotations.NotNull;
 public class ItemHardenedPickaxe extends PickaxeItem {
 
     public ItemHardenedPickaxe(Tier pTier, int pAttackDamageModifier, float pAttackSpeedModifier, Properties pProperties) {
-        super(pTier, pAttackDamageModifier, pAttackSpeedModifier, pProperties);
+        super(pTier, pAttackDamageModifier, pAttackSpeedModifier, new Item.Properties().fireResistant());
     }
     @Override
     public boolean isFireResistant() {

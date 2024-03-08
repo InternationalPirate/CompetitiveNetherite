@@ -7,6 +7,7 @@ import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.ArmorItem;
 import net.minecraft.world.item.ArmorMaterial;
+import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.Level;
 
@@ -16,11 +17,7 @@ public class ItemCNArmor extends ArmorItem {
     private static final Map<ArmorMaterial, MobEffectInstance> MATERIAL_MOB_EFFECT_INSTANCE_MAP = (new ImmutableMap.Builder<ArmorMaterial, MobEffectInstance>()).
             put(CNArmorMaterials.CHARMED, new MobEffectInstance(MobEffects.REGENERATION, 40, 1, false, false, false)).build();
     public ItemCNArmor(ArmorMaterial pMaterial, Type pType, Properties pProperties) {
-        super(pMaterial, pType, pProperties);
-    }
-    @Override
-    public boolean isFireResistant() {
-        return super.isFireResistant();
+        super(pMaterial, pType, new Item.Properties().fireResistant());
     }
 
 

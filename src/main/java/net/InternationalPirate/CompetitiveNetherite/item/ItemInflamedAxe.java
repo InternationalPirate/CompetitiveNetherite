@@ -6,19 +6,15 @@ import net.minecraft.world.entity.monster.hoglin.Hoglin;
 import net.minecraft.world.entity.monster.piglin.Piglin;
 import net.minecraft.world.entity.monster.piglin.PiglinBrute;
 import net.minecraft.world.item.AxeItem;
+import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Tier;
 import org.jetbrains.annotations.NotNull;
 
 public class ItemInflamedAxe extends AxeItem {
     public ItemInflamedAxe(Tier pTier, int pAttackDamageModifier, float pAttackSpeedModifier, Properties pProperties) {
-        super(pTier, pAttackDamageModifier, pAttackSpeedModifier, pProperties);
+        super(pTier, pAttackDamageModifier, pAttackSpeedModifier, new Item.Properties().fireResistant());
     }
-    @Override
-    public boolean isFireResistant() {
-        return super.isFireResistant();
-    }
-
     @Override
     public boolean hurtEnemy(@NotNull ItemStack pStack, @NotNull LivingEntity pTarget, @NotNull LivingEntity pAttacker) {
         if (pTarget instanceof Blaze || pTarget instanceof MagmaCube || pTarget instanceof Ghast || pTarget instanceof WitherSkeleton || pTarget instanceof ZombifiedPiglin || pTarget instanceof Strider || pTarget instanceof Zoglin) {
