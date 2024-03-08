@@ -14,7 +14,7 @@ public class InflamedNetheriteArmorModel extends GeoModel<ItemInflamedArmor> {
 
     @Override
     public ResourceLocation getTextureResource(ItemInflamedArmor itemInflamedArmor) {
-        return new ResourceLocation(CompetitiveNetherite.MODID, "textures/models/armor/inflamed_netherite_layer_1.png");
+        return new ResourceLocation(CompetitiveNetherite.MODID, "textures/models/armor/inflamed_netherite_layer.png");
     }
 
     @Override
