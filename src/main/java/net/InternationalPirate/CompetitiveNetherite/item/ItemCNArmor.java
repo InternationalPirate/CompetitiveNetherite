@@ -28,6 +28,10 @@ public class ItemCNArmor extends ArmorItem {
             pTooltipComponents.add(Component.translatable("tooltip.competitivenetherite.armorsetbonus").withStyle(ChatFormatting.GOLD).withStyle(ChatFormatting.BOLD));
             pTooltipComponents.add(Component.translatable("tooltip.competitivenetherite.charmed.armor_0").withStyle(ChatFormatting.DARK_RED));
         }
+        if (material == CNArmorMaterials.HARDENED) {
+            pTooltipComponents.add(Component.translatable("tooltip.competitivenetherite.hardened.armor_0").withStyle(ChatFormatting.DARK_GRAY));
+
+        }
     }
 
     @Override

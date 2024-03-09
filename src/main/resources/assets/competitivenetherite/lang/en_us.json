@@ -59,6 +59,8 @@
   "tooltip.competitivenetherite.charmed.tools_0": "Drains the life force of targets",
   "tooltip.competitivenetherite.charmed.tools_1": "and heals the wielder",
   "tooltip.competitivenetherite.charmed.hoe_0": "Revitalizes those hit with its blade",
+  "tooltip.competitivenetherite.hardened.armor_0": "Renders the wearer immune to knockback",
+  "tooltip.competitivenetherite.hardened.tools_0": "Deals heavy damage and slows enemies in place",
 
   "tooltip.competitivenetherite.gale_bottled_0": "You feel light on your feet...",
   "tooltip.competitivenetherite.gale_bottled_1": "Gives speed and jump boost when in hotbar",
