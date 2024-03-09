@@ -26,16 +26,16 @@ public class ItemGaleBottled extends Item {
         super.inventoryTick(pStack, pLevel, pEntity, pSlotId, pIsSelected);
         if (pEntity instanceof Player && pSlotId >= 0 && pSlotId <= 8) {
             if (!((Player) pEntity).hasEffect(MobEffects.MOVEMENT_SPEED))
-                ((Player) pEntity).addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 200, 2));
+                ((Player) pEntity).addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 400, 2));
             if (!((Player) pEntity).hasEffect(MobEffects.JUMP))
-                ((Player) pEntity).addEffect(new MobEffectInstance(MobEffects.JUMP, 200, 2));
+                ((Player) pEntity).addEffect(new MobEffectInstance(MobEffects.JUMP, 400, 2));
         }
     }
 
     @Override
     public void appendHoverText(ItemStack pStack, @Nullable Level pLevel, List<Component> pTooltipComponents, TooltipFlag pIsAdvanced) {
-        super.appendHoverText(pStack, pLevel, pTooltipComponents, pIsAdvanced);
-        pTooltipComponents.add(Component.translatable("You feel light on your feet...").withStyle(ChatFormatting.GRAY));
+        pTooltipComponents.add(Component.translatable("tooltip.competitivenetherite.gale_bottled_0").withStyle(ChatFormatting.AQUA).withStyle(ChatFormatting.ITALIC));
+        pTooltipComponents.add(Component.translatable("tooltip.competitivenetherite.gale_bottled_1").withStyle(ChatFormatting.GRAY));
     }
 
 }

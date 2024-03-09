@@ -2,24 +2,33 @@ package net.InternationalPirate.CompetitiveNetherite.item;
 
 
 import com.google.common.collect.ImmutableMap;
+import net.minecraft.ChatFormatting;
+import net.minecraft.network.chat.Component;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.entity.player.Player;
-import net.minecraft.world.item.ArmorItem;
-import net.minecraft.world.item.ArmorMaterial;
-import net.minecraft.world.item.Item;
-import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.*;
 import net.minecraft.world.level.Level;
+import org.jetbrains.annotations.Nullable;
 
+import java.util.List;
 import java.util.Map;
+
 
 public class ItemCNArmor extends ArmorItem {
     private static final Map<ArmorMaterial, MobEffectInstance> MATERIAL_MOB_EFFECT_INSTANCE_MAP = (new ImmutableMap.Builder<ArmorMaterial, MobEffectInstance>()).
             put(CNArmorMaterials.CHARMED, new MobEffectInstance(MobEffects.REGENERATION, 40, 1, false, false, false)).build();
     public ItemCNArmor(ArmorMaterial pMaterial, Type pType, Properties pProperties) {
         super(pMaterial, pType, new Item.Properties().fireResistant());
-    }
 
+    }
+    @Override
+    public void appendHoverText(ItemStack pStack, @Nullable Level pLevel, List<Component> pTooltipComponents, TooltipFlag pIsAdvanced) {
+        if (material == CNArmorMaterials.CHARMED) {
+            pTooltipComponents.add(Component.translatable("tooltip.competitivenetherite.armorsetbonus").withStyle(ChatFormatting.GOLD).withStyle(ChatFormatting.BOLD));
+            pTooltipComponents.add(Component.translatable("tooltip.competitivenetherite.charmed.armor_0").withStyle(ChatFormatting.DARK_RED));
+        }
+    }
 
     @Override
     public void onArmorTick(ItemStack stack, Level world, Player player) {

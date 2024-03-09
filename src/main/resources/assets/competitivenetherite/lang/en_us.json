@@ -49,5 +49,19 @@
   "block.competitivenetherite.nether_fissure": "Netherrack Fissure",
   "block.competitivenetherite.wind_trap": "Wind Trap",
 
+  "tooltip.competitivenetherite.armorsetbonus": "Full Set Bonus:",
+  "tooltip.competitivenetherite.inflamed.armor_0": "Grants full immunity to fire",
+  "tooltip.competitivenetherite.inflamed.tools_0": "Sets targets on fire",
+  "tooltip.competitivenetherite.inflamed.tools_1": "Deals extra damage to Nether mobs",
+  "tooltip.competitivenetherite.strange.armor_0": "Teleports wearer to safety",
+  "tooltip.competitivenetherite.strange.tools_0": "Inflicts levitation, weakness, and glowing",
+  "tooltip.competitivenetherite.charmed.armor_0": "Gradually heals the wearer",
+  "tooltip.competitivenetherite.charmed.tools_0": "Drains the life force of targets",
+  "tooltip.competitivenetherite.charmed.tools_1": "and heals the wielder",
+  "tooltip.competitivenetherite.charmed.hoe_0": "Revitalizes those hit with its blade",
+
+  "tooltip.competitivenetherite.gale_bottled_0": "You feel light on your feet...",
+  "tooltip.competitivenetherite.gale_bottled_1": "Gives speed and jump boost when in hotbar",
+
   "creativetab.competitivenetherite_tab": "Competitive Netherite"
 }

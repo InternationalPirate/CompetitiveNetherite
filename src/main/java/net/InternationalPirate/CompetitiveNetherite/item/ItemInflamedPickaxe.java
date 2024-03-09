@@ -1,15 +1,18 @@
 package net.InternationalPirate.CompetitiveNetherite.item;
 
+import net.minecraft.ChatFormatting;
+import net.minecraft.network.chat.Component;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.monster.*;
 import net.minecraft.world.entity.monster.hoglin.Hoglin;
 import net.minecraft.world.entity.monster.piglin.Piglin;
 import net.minecraft.world.entity.monster.piglin.PiglinBrute;
-import net.minecraft.world.item.Item;
-import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.item.PickaxeItem;
-import net.minecraft.world.item.Tier;
+import net.minecraft.world.item.*;
+import net.minecraft.world.level.Level;
 import org.jetbrains.annotations.NotNull;
+import org.jetbrains.annotations.Nullable;
+
+import java.util.List;
 
 public class ItemInflamedPickaxe extends PickaxeItem {
     public ItemInflamedPickaxe(Tier pTier, int pAttackDamageModifier, float pAttackSpeedModifier, Properties pProperties) {
@@ -28,5 +31,10 @@ public class ItemInflamedPickaxe extends PickaxeItem {
         }
         pTarget.setSecondsOnFire(11);
         return super.hurtEnemy(pStack, pTarget, pAttacker);
+    }
+    @Override
+    public void appendHoverText(ItemStack pStack, @Nullable Level pLevel, List<Component> pTooltipComponents, TooltipFlag pIsAdvanced) {
+        pTooltipComponents.add(Component.translatable("tooltip.competitivenetherite.inflamed.tools_0").withStyle(ChatFormatting.RED).withStyle(ChatFormatting.BOLD));
+        pTooltipComponents.add(Component.translatable("tooltip.competitivenetherite.inflamed.tools_1").withStyle(ChatFormatting.YELLOW));
     }
 }
