@@ -1,10 +1,11 @@
 # Competitive Netherite
-The Competitive Netherite Mod implements several upgrades to the netherite armor, adding an incentive to engage in the vanilla progression system in modded playthroughs and allowing netherite to compete with other modded armor sets.
+The Competitive Netherite Mod implements several upgrades to netherite armor, adding an incentive to engage in the vanilla progression system in modded playthroughs and allowing netherite to compete with other modded armor sets.
 
+This mod requires geckolib.
 The mod is a WIP as of now.
 
 ## Tiers
-As of now, there are six planned tiers of upgraded netherite armor. In addition to granting special abilities, each tier also upgrades the base stats of netherite tools and armor.
+As of now, there are six planned tiers of upgraded netherite armor and tools. In addition to granting special abilities, each tier also upgrades the base stats of netherite tools and armor.
 
 ### Inflamed //PARTIALLY IMPLEMENTED
 In order to craft this set of armor, you need an inflamed smithing template and a blaze rod.
@@ -29,10 +30,10 @@ In order to craft this set of armor, you need a hardened smithing template and a
 * To craft the template, you need a regular upgrade template and 1 netherite ingot.
 * Hardened tools and armor are far stronger than their normal netherite counterparts.
 
-## Soulstolen //UNIMPLEMENTED
-In order to craft this set of armor, you need a soulstolen smithing template and a skull catalyst.
+## Soulstealer //UNIMPLEMENTED
+In order to craft this set of armor, you need a soulstealer smithing template and a skull catalyst.
 * To craft the template, you need a regular upgrade template and 4 echo shards.
-*  Soulstolen tools grant strength per kill, while the armor grants health boost.
+*  Soulstealer tools grant the wielder strength per hit and weakens the target, while the armor grants health boost.
 
 ## Windswept //UNIMPLEMENTED
 In order to craft this set of armor, you need a windswept smithing template and a phantom membrane.
