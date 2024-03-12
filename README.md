@@ -7,13 +7,13 @@ The mod is a WIP as of now.
 ## Tiers
 As of now, there are six planned tiers of upgraded netherite armor and tools. In addition to granting special abilities, each tier also upgrades the base stats of netherite tools and armor.
 
-### Inflamed //PARTIALLY IMPLEMENTED
+## Inflamed //PARTIALLY IMPLEMENTED
 In order to craft this set of armor, you need an inflamed smithing template and a blaze rod.
 * To craft the template, you need a regular upgrade template, 4 blaze powder, and 4 infernal pyres.
 * Infernal pyres are obtained by defeating a new boss mob, the Inferno.
 * Inflamed tools and weapons set enemies on fire for 11 seconds and deal increased damage to nether mobs, while the armor makes one immune to fire damage.
 
-### Strange //PARTIALLY IMPLEMENTED
+## Strange //PARTIALLY IMPLEMENTED
 In order to craft this set of armor, you need a strange smithing template and an ender pearl.
 * To craft the template, you need a regular upgrade template, 3 eyes of ender, and 1 strange heart.
 * Strange hearts are obtained by defeating the warped traveler, a heavily mutated enderman.
