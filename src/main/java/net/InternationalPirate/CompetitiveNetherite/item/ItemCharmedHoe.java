@@ -20,11 +20,11 @@ public class ItemCharmedHoe extends HoeItem {
 
     @Override
     public boolean hurtEnemy(@NotNull ItemStack pStack, @NotNull LivingEntity pTarget, @NotNull LivingEntity pAttacker) {
-        pTarget.heal(5);
+        pTarget.heal(11);
         return super.hurtEnemy(pStack, pTarget, pAttacker);
     }
     @Override
     public void appendHoverText(ItemStack pStack, @Nullable Level pLevel, List<Component> pTooltipComponents, TooltipFlag pIsAdvanced) {
-        pTooltipComponents.add(Component.translatable("tooltip.competitivenetherite.charmed.hoe_0").withStyle(ChatFormatting.DARK_RED).withStyle(ChatFormatting.BOLD));
+        pTooltipComponents.add(Component.translatable("tooltip.competitivenetherite.charmed.hoe_0").withStyle(ChatFormatting.DARK_RED));
     }
 }

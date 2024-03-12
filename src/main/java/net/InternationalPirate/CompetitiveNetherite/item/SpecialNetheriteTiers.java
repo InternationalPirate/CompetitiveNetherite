@@ -30,6 +30,10 @@ public class SpecialNetheriteTiers {
     public static final Tier NETHERITE_TIER_HARDENED = TierSortingRegistry.registerTier(
             new ForgeTier(5, 8800, 9f, 8f, 15, CNTags.Blocks.NEEDS_SPECIAL_NETHERITE, ()-> Ingredient.of(Items.NETHERITE_INGOT)),
             new ResourceLocation(CompetitiveNetherite.MODID, "hardened"), List.of(Tiers.NETHERITE), List.of());
+
+    public static final Tier NETHERITE_TIER_SOULSTEALER = TierSortingRegistry.registerTier(
+            new ForgeTier(5, 2100, 8f, 8f, 21, CNTags.Blocks.NEEDS_SPECIAL_NETHERITE, ()-> Ingredient.of(Items.NETHERITE_INGOT)),
+            new ResourceLocation(CompetitiveNetherite.MODID, "soulstealer"), List.of(Tiers.NETHERITE), List.of());
 }
 
 

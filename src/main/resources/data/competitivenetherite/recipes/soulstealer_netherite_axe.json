@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "minecraft:sculk_vein"
+  },
+  "base": {
+    "item": "minecraft:netherite_axe"
+  },
+  "result": {
+    "item": "competitivenetherite:soulstealer_netherite_axe"
+  },
+  "template": {
+    "item": "competitivenetherite:upgrade_template_soulstealer"
+  }
+}

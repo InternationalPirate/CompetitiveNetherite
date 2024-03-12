@@ -12,19 +12,21 @@ import org.jetbrains.annotations.Nullable;
 
 import java.util.List;
 
-public class ItemHardenedSword extends SwordItem {
+public class ItemSoulstealerPickaxe extends PickaxeItem {
 
-    public ItemHardenedSword(Tier pTier, int pAttackDamageModifier, float pAttackSpeedModifier, Properties pProperties) {
-        super(pTier, pAttackDamageModifier, pAttackSpeedModifier, new Item.Properties().fireResistant());
+    public ItemSoulstealerPickaxe(Tier pTier, int pAttackDamageModifier, float pAttackSpeedModifier, Properties pProperties) {
+        super(pTier, pAttackDamageModifier, pAttackSpeedModifier, new Properties().fireResistant());
     }
-
     @Override
     public boolean hurtEnemy(@NotNull ItemStack pStack, @NotNull LivingEntity pTarget, @NotNull LivingEntity pAttacker) {
-        pTarget.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SLOWDOWN, 40, 4, false, false, false), pAttacker);
+        pTarget.addEffect(new MobEffectInstance(MobEffects.WEAKNESS, 40, 0), pAttacker);
+        pTarget.addEffect(new MobEffectInstance(MobEffects.DARKNESS, 40, 0), pAttacker);
+        pAttacker.addEffect(new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 0));
         return super.hurtEnemy(pStack, pTarget, pAttacker);
     }
     @Override
     public void appendHoverText(ItemStack pStack, @Nullable Level pLevel, List<Component> pTooltipComponents, TooltipFlag pIsAdvanced) {
-        pTooltipComponents.add(Component.translatable("tooltip.competitivenetherite.hardened.tools_0").withStyle(ChatFormatting.DARK_GRAY));
+        pTooltipComponents.add(Component.translatable("tooltip.competitivenetherite.soulstealer.tools_0").withStyle(ChatFormatting.DARK_AQUA));
+        pTooltipComponents.add(Component.translatable("tooltip.competitivenetherite.soulstealer.tools_1").withStyle(ChatFormatting.DARK_AQUA));
     }
 }

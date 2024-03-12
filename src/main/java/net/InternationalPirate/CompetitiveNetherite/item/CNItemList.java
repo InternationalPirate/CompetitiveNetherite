@@ -15,7 +15,7 @@ public class CNItemList {
     public static final RegistryObject<Item> ALLUDING_GUST = ITEMS.register("alluding_gust",
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> INFERNAL_PYRE = ITEMS.register("infernal_pyre",
-            () -> new Item(new Item.Properties()));
+            () -> new ItemInfernalPyre(new Item.Properties()));
     public static final RegistryObject<Item> STRANGE_HEART = ITEMS.register("strange_heart",
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> GALE_BOTTLED = ITEMS.register("gale_bottled",
@@ -23,17 +23,17 @@ public class CNItemList {
 
     //NEW UPGRADE TEMPLATE LIST
     public static final RegistryObject<Item> UPGRADE_TEMPLATE_INFLAMED = ITEMS.register("upgrade_template_inflamed",
-            () -> new Item(new Item.Properties()));
+            () -> new ItemInflamedUpgradeTemplate(new Item.Properties()));
     public static final RegistryObject<Item> UPGRADE_TEMPLATE_STRANGE = ITEMS.register("upgrade_template_strange",
-            () -> new Item(new Item.Properties()));
+            () -> new ItemStrangeUpgradeTemplate(new Item.Properties()));
     public static final RegistryObject<Item> UPGRADE_TEMPLATE_CHARMED = ITEMS.register("upgrade_template_charmed",
-            () -> new Item(new Item.Properties()));
+            () -> new ItemCharmedUpgradeTemplate(new Item.Properties()));
     public static final RegistryObject<Item> UPGRADE_TEMPLATE_HARDENED = ITEMS.register("upgrade_template_hardened",
-            () -> new Item(new Item.Properties()));
-    public static final RegistryObject<Item> UPGRADE_TEMPLATE_SOULSTOLEN = ITEMS.register("upgrade_template_soulstolen",
-            () -> new Item(new Item.Properties()));
+            () -> new ItemHardenedUpgradeTemplate(new Item.Properties()));
+    public static final RegistryObject<Item> UPGRADE_TEMPLATE_SOULSTEALER = ITEMS.register("upgrade_template_soulstealer",
+            () -> new ItemSoulstealerUpgradeTemplate(new Item.Properties()));
     public static final RegistryObject<Item> UPGRADE_TEMPLATE_WINDSWEPT = ITEMS.register("upgrade_template_windswept",
-            () -> new Item(new Item.Properties()));
+            () -> new ItemWindsweptUpgradeTemplate(new Item.Properties()));
 
     //TOOL AND WEAPON LIST
     public static final RegistryObject<Item> INFLAMED_NETHERITE_SWORD = ITEMS.register("inflamed_netherite_sword",
@@ -47,11 +47,11 @@ public class CNItemList {
     public static final RegistryObject<Item> INFLAMED_NETHERITE_HOE = ITEMS.register("inflamed_netherite_hoe",
             () -> new ItemInflamedHoe(SpecialNetheriteTiers.NETHERITE_TIER_INFLAMED, -5, 0, new Item.Properties()));
     public static final RegistryObject<Item> STRANGE_NETHERITE_SWORD = ITEMS.register("strange_netherite_sword",
-            () -> new ItemStrangeSword(SpecialNetheriteTiers.NETHERITE_TIER_STRANGE, 2, -2.4f, new Item.Properties()));
+            () -> new ItemStrangeSword(SpecialNetheriteTiers.NETHERITE_TIER_STRANGE, 4, -2.4f, new Item.Properties()));
     public static final RegistryObject<Item> STRANGE_NETHERITE_AXE = ITEMS.register("strange_netherite_axe",
-            () -> new ItemStrangeAxe(SpecialNetheriteTiers.NETHERITE_TIER_STRANGE, 4, -3f, new Item.Properties()));
+            () -> new ItemStrangeAxe(SpecialNetheriteTiers.NETHERITE_TIER_STRANGE, 6, -3f, new Item.Properties()));
     public static final RegistryObject<Item> STRANGE_NETHERITE_PICKAXE = ITEMS.register("strange_netherite_pickaxe",
-            () -> new ItemStrangePickaxe(SpecialNetheriteTiers.NETHERITE_TIER_STRANGE, -3, -2.8f, new Item.Properties()));
+            () -> new ItemStrangePickaxe(SpecialNetheriteTiers.NETHERITE_TIER_STRANGE, -1, -2.8f, new Item.Properties()));
     public static final RegistryObject<Item> STRANGE_NETHERITE_SHOVEL = ITEMS.register("strange_netherite_shovel",
             () -> new ItemStrangeShovel(SpecialNetheriteTiers.NETHERITE_TIER_STRANGE, 0, -2.4f, new Item.Properties()));
     public static final RegistryObject<Item> STRANGE_NETHERITE_HOE = ITEMS.register("strange_netherite_hoe",
@@ -76,6 +76,17 @@ public class CNItemList {
             () -> new ItemHardenedShovel(SpecialNetheriteTiers.NETHERITE_TIER_HARDENED, 9, -2.8f, new Item.Properties()));
     public static final RegistryObject<Item> HARDENED_NETHERITE_HOE = ITEMS.register("hardened_netherite_hoe",
             () -> new ItemHardenedHoe(SpecialNetheriteTiers.NETHERITE_TIER_HARDENED, 1, -3, new Item.Properties()));
+    public static final RegistryObject<Item> SOULSTEALER_NETHERITE_SWORD = ITEMS.register("soulstealer_netherite_sword",
+            () -> new ItemSoulstealerSword(SpecialNetheriteTiers.NETHERITE_TIER_SOULSTEALER, 2, -2.4f, new Item.Properties()));
+    public static final RegistryObject<Item> SOULSTEALER_NETHERITE_AXE = ITEMS.register("soulstealer_netherite_axe",
+            () -> new ItemSoulstealerAxe(SpecialNetheriteTiers.NETHERITE_TIER_SOULSTEALER, 4, -3.3f, new Item.Properties()));
+    public static final RegistryObject<Item> SOULSTEALER_NETHERITE_PICKAXE = ITEMS.register("soulstealer_netherite_pickaxe",
+            () -> new ItemSoulstealerPickaxe(SpecialNetheriteTiers.NETHERITE_TIER_SOULSTEALER, -3, -2.8f, new Item.Properties()));
+    public static final RegistryObject<Item> SOULSTEALER_NETHERITE_SHOVEL = ITEMS.register("soulstealer_netherite_shovel",
+            () -> new ItemSoulstealerShovel(SpecialNetheriteTiers.NETHERITE_TIER_SOULSTEALER, -2, -2.4f, new Item.Properties()));
+    public static final RegistryObject<Item> SOULSTEALER_NETHERITE_HOE = ITEMS.register("soulstealer_netherite_hoe",
+            () -> new ItemSoulstealerHoe(SpecialNetheriteTiers.NETHERITE_TIER_SOULSTEALER, -3, -3.2f, new Item.Properties()));
+
 
     //ARMOR LIST
     public static final RegistryObject<Item> INFLAMED_NETHERITE_HELMET = ITEMS.register("armor_inflamed_netherite_helmet",

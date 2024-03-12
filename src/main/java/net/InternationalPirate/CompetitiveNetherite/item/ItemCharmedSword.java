@@ -24,7 +24,7 @@ public class ItemCharmedSword extends SwordItem {
     }
     @Override
     public void appendHoverText(ItemStack pStack, @Nullable Level pLevel, List<Component> pTooltipComponents, TooltipFlag pIsAdvanced) {
-        pTooltipComponents.add(Component.translatable("tooltip.competitivenetherite.charmed.tools_0").withStyle(ChatFormatting.DARK_RED).withStyle(ChatFormatting.BOLD));
-        pTooltipComponents.add(Component.translatable("tooltip.competitivenetherite.charmed.tools_1").withStyle(ChatFormatting.DARK_RED).withStyle(ChatFormatting.BOLD));
+        pTooltipComponents.add(Component.translatable("tooltip.competitivenetherite.charmed.tools_0").withStyle(ChatFormatting.DARK_RED));
+        pTooltipComponents.add(Component.translatable("tooltip.competitivenetherite.charmed.tools_1").withStyle(ChatFormatting.DARK_RED));
     }
 }

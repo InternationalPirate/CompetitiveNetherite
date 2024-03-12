@@ -27,7 +27,7 @@ public class CNCreativeTab {
                         output.accept(CNItemList.UPGRADE_TEMPLATE_STRANGE.get());
                         output.accept(CNItemList.UPGRADE_TEMPLATE_CHARMED.get());
                         output.accept(CNItemList.UPGRADE_TEMPLATE_HARDENED.get());
-                        output.accept(CNItemList.UPGRADE_TEMPLATE_SOULSTOLEN.get());
+                        output.accept(CNItemList.UPGRADE_TEMPLATE_SOULSTEALER.get());
                         output.accept(CNItemList.UPGRADE_TEMPLATE_WINDSWEPT.get());
 
                         //TOOLS AND WEAPONS
@@ -41,16 +41,22 @@ public class CNCreativeTab {
                         output.accept(CNItemList.STRANGE_NETHERITE_AXE.get());
                         output.accept(CNItemList.STRANGE_NETHERITE_HOE.get());
                         output.accept(CNItemList.STRANGE_NETHERITE_SWORD.get());
-                        output.accept(CNItemList.CHARMED_NETHERITE_SWORD.get());
-                        output.accept(CNItemList.CHARMED_NETHERITE_AXE.get());
-                        output.accept(CNItemList.CHARMED_NETHERITE_PICKAXE.get());
                         output.accept(CNItemList.CHARMED_NETHERITE_SHOVEL.get());
+                        output.accept(CNItemList.CHARMED_NETHERITE_PICKAXE.get());
+                        output.accept(CNItemList.CHARMED_NETHERITE_AXE.get());
                         output.accept(CNItemList.CHARMED_NETHERITE_HOE.get());
-                        output.accept(CNItemList.HARDENED_NETHERITE_SWORD.get());
-                        output.accept(CNItemList.HARDENED_NETHERITE_AXE.get());
-                        output.accept(CNItemList.HARDENED_NETHERITE_PICKAXE.get());
+                        output.accept(CNItemList.CHARMED_NETHERITE_SWORD.get());
                         output.accept(CNItemList.HARDENED_NETHERITE_SHOVEL.get());
+                        output.accept(CNItemList.HARDENED_NETHERITE_PICKAXE.get());
+                        output.accept(CNItemList.HARDENED_NETHERITE_AXE.get());
                         output.accept(CNItemList.HARDENED_NETHERITE_HOE.get());
+                        output.accept(CNItemList.HARDENED_NETHERITE_SWORD.get());
+
+                        output.accept(CNItemList.SOULSTEALER_NETHERITE_SHOVEL.get());
+                        output.accept(CNItemList.SOULSTEALER_NETHERITE_PICKAXE.get());
+                        output.accept(CNItemList.SOULSTEALER_NETHERITE_AXE.get());
+                        output.accept(CNItemList.SOULSTEALER_NETHERITE_HOE.get());
+                        output.accept(CNItemList.SOULSTEALER_NETHERITE_SWORD.get());
 
                         //ARMOR
                         output.accept(CNItemList.INFLAMED_NETHERITE_HELMET.get());

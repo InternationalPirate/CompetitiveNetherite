@@ -25,7 +25,7 @@ public class ItemHardenedAxe extends AxeItem {
 
     @Override
     public boolean hurtEnemy(@NotNull ItemStack pStack, @NotNull LivingEntity pTarget, @NotNull LivingEntity pAttacker) {
-        pTarget.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SLOWDOWN, 40, 4), pAttacker);
+        pTarget.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SLOWDOWN, 40, 4, false, false, false), pAttacker);
         return super.hurtEnemy(pStack, pTarget, pAttacker);
     }
     @Override

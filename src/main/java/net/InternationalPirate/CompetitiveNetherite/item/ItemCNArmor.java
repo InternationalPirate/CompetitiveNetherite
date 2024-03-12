@@ -16,8 +16,10 @@ import java.util.Map;
 
 
 public class ItemCNArmor extends ArmorItem {
-    private static final Map<ArmorMaterial, MobEffectInstance> MATERIAL_MOB_EFFECT_INSTANCE_MAP = (new ImmutableMap.Builder<ArmorMaterial, MobEffectInstance>()).
-            put(CNArmorMaterials.CHARMED, new MobEffectInstance(MobEffects.REGENERATION, 40, 1, false, false, false)).build();
+
+    private static final Map<ArmorMaterial, MobEffectInstance> MATERIAL_MOB_EFFECT_INSTANCE_MAP = (new ImmutableMap.Builder<ArmorMaterial, MobEffectInstance>())
+            .put(CNArmorMaterials.CHARMED, new MobEffectInstance(MobEffects.REGENERATION, 40, 1, false, false, false)).build();
+
     public ItemCNArmor(ArmorMaterial pMaterial, Type pType, Properties pProperties) {
         super(pMaterial, pType, new Item.Properties().fireResistant());
 

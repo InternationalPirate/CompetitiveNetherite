@@ -6,11 +6,11 @@
       "item": "minecraft:netherite_upgrade_smithing_template"
     },
     {
-      "item": "competitivenetherite:upgrade_template_soulstolen"
+      "item": "competitivenetherite:upgrade_template_soulstealer"
     }
   ],
   "result": {
-    "item": "competitivenetherite:upgrade_template_soulstolen",
+    "item": "competitivenetherite:upgrade_template_soulstealer",
     "count": 2
   },
   "show_notification": true
