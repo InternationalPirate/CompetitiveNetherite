@@ -7,7 +7,7 @@ The mod is a WIP as of now.
 ## Tiers
 As of now, there are six planned tiers of upgraded netherite armor and tools. In addition to granting special abilities, each tier also upgrades the base stats of netherite tools and armor.
 
-## Inflamed //PARTIALLY IMPLEMENTED
+## Inflamed
 In order to craft this set of armor, you need an inflamed smithing template and a blaze rod.
 * To craft the template, you need a regular upgrade template, 4 blaze powder, and 4 infernal pyres.
 * Infernal pyres are obtained by defeating a new boss mob, the Inferno.
