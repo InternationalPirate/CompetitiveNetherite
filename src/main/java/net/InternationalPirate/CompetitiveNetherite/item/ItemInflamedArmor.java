@@ -26,7 +26,7 @@ import java.util.Map;
 import java.util.function.Consumer;
 
 public class ItemInflamedArmor extends ArmorItem implements GeoItem {
-    private final AnimatableInstanceCache cache = new SingletonAnimatableInstanceCache(this);
+    private AnimatableInstanceCache cache = new SingletonAnimatableInstanceCache(this);
     public ItemInflamedArmor(ArmorMaterial pMaterial, Type pType, Properties pProperties) {
         super(pMaterial, pType, new Item.Properties().fireResistant());
     }
