@@ -13,7 +13,7 @@ In order to craft this set of armor, you need an inflamed smithing template and 
 * Infernal pyres are obtained by defeating a new boss mob, the Inferno.
 * Inflamed tools and weapons set enemies on fire for 11 seconds and deal increased damage to nether mobs, while the armor makes one immune to fire damage.
 
-## Strange //PARTIALLY IMPLEMENTED
+## Strange
 In order to craft this set of armor, you need a strange smithing template and an ender pearl.
 * To craft the template, you need a regular upgrade template, 3 eyes of ender, and 1 strange heart.
 * Strange hearts are obtained by defeating the warped traveler, a heavily mutated enderman.
@@ -30,7 +30,7 @@ In order to craft this set of armor, you need a hardened smithing template and a
 * To craft the template, you need a regular upgrade template and 1 netherite ingot.
 * Hardened tools and armor are far stronger than their normal netherite counterparts.
 
-## Soulstealer //UNIMPLEMENTED
+## Soulstealer //PARTIALLY IMPLEMENTED
 In order to craft this set of armor, you need a soulstealer smithing template and a skull catalyst.
 * To craft the template, you need a regular upgrade template and 4 echo shards.
 *  Soulstealer tools grant the wielder strength per hit and weakens the target, while the armor grants health boost.
