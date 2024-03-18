@@ -17,7 +17,7 @@ In order to craft this set of armor, you need an inflamed smithing template and 
 In order to craft this set of armor, you need a strange smithing template and an ender pearl.
 * To craft the template, you need a regular upgrade template, 3 eyes of ender, and 1 strange heart.
 * Strange hearts are obtained by defeating the warped traveler, a heavily mutated enderman.
-  Strange tools and weapons make enemies float and glow, while the armor warps the player out of the void.
+* Strange tools and weapons make enemies float and glow, while the armor warps the player out of the void.
 
 ## Charmed
 In order to craft this set of armor, you need a charmed smithing template and a glistering melon.
